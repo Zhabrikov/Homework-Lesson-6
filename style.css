@@ -321,7 +321,7 @@ header .btn{
     font-size: 14px;
     color: #333333;
     padding: 25px 50px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 35px;
 }
 
@@ -329,6 +329,9 @@ header .btn{
 	padding: 25px 90px;
 }
 
+.container6 .cards .item a:hover{
+	background-color: #b8b8b8;
+}
 
 @media (max-width: 1300px){
 	.center{
