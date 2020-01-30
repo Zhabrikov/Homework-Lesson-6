@@ -1,0 +1,342 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*END RESET.CSS*/
+
+.wrapper{
+	max-width: 1920px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+header{
+	height: 140px;
+	background-color: #ebecee;
+}
+
+header .logo{
+	margin-left: 3%;
+}
+
+header .logo img{
+	margin-top: 70px;
+}
+
+header .menu ul{
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+}
+
+header .menu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	color: #333333;
+}
+
+header .btn a{
+	text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    padding: 25px 50px;
+    background-color: #fff;
+    border-radius: 35px;
+}
+
+header .logo, header .menu, header .btn{
+	display: inline-block;
+}
+
+header .menu{
+	margin-left: 62%;
+	position: relative;
+	top: -20px;
+}
+
+header .btn{
+	margin-left: 3%;
+	position: relative;
+	top: -20px;
+}
+
+.container2{
+	background-image: url('./img/background_top.png');
+	height: calc(100vh - 140px);
+	max-height: 950px;
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-color: #ebecee;
+	background-size: contain;
+}
+
+.container2 .main{	
+	display: inline-block;
+	position: relative;
+	top: 25vh;
+	left: 240px;
+	text-align: center;
+}
+
+.container2 h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	color: #222222;	
+}
+
+
+.container2 .main .btn{	
+	margin-top: 7vh;
+}
+
+.container2 .main .btn a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333333;
+	padding: 25px 50px;
+	background-color: #fff;
+	border-radius: 35px;
+	text-transform: uppercase;
+}
+
+.container3 h2{
+	margin-top: 12vh;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+	color: #141311;
+	margin-bottom: 25px;
+}
+
+.center{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container3 p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	line-height: 24px;
+	margin-bottom: 35px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.container3 .cards{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.container3 .cards .item{
+	width: 377px;
+}
+
+.container3 .cards .img{
+	position: relative;
+}
+
+.container3 .cards .img .black{
+	display: none;
+	opacity: 0.5;
+	position: absolute;
+	background-color: #000000;
+	width: 100%;
+	height: calc(100% - 2px);
+}
+
+.container3 .cards .img:hover{
+	cursor: pointer;
+}
+
+.container3 .cards .item .img .hover_effect_img{
+	position: absolute;
+    top: 25%;
+	left: 35%;
+	display: none;
+}
+
+.container3 .cards .img:hover .hover_effect_img{
+	display: initial;
+}
+
+.container3 .cards .img:hover .black{
+	display: initial;
+}
+
+.container3 .cards .desc{
+	margin: 35px 35px 0 35px;
+}
+
+.container3 .cards .desc span{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 22px;
+}
+
+.container3 .cards p{
+	margin-top: 20px;	
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 14px;
+	margin-bottom: 12vh;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container6{
+	background-image: url('./img/background_container6.png');
+	height: 1091px;
+	max-height: 1100px;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+
+	
+}
+
+.container6 h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	color: #ffffff;
+	padding-top: 230px;
+	margin-bottom: 125px;
+}
+
+.container6 .cards{
+	display: flex; 
+	justify-content: center;
+}
+
+.container6 .cards .item{
+	width: 395px;
+	height: 395px;
+}
+
+.container6 .cards .item:nth-child(2){
+	border-left: 1px solid #252525;
+	border-right: 1px solid #252525;
+}
+
+.container6 .cards .item .price{
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	color: #c89d28;
+}
+
+.container6 .cards .item .price sup{
+	font-size: 35px;
+}
+
+.container6 .cards .item span{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+
+
+.container6 .cards .item p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #999999;
+	line-height: 24px;
+}
+
+.container6 .cards .item p:nth-child(3){
+	margin-top: 50px;
+}
+
+.container6 .cards .item .btn{
+	margin-top: 95px;
+}
+
+.container6 .cards .item a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    padding: 25px 50px;
+    background-color: #fff;
+    border-radius: 35px;
+}
+
+.container6 .cards .item:first-child a{
+	padding: 25px 90px;
+}
+
+
+@media (max-width: 1300px){
+	.center{
+		width: 95%;
+	}
+
+	.container3 .cards{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
