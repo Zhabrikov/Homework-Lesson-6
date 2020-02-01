@@ -554,7 +554,6 @@ header .btn a:hover{
 
 
 
-
 @media (max-width: 1300px){
 	.center{
 		width: 95%;
@@ -564,4 +563,5 @@ header .btn a:hover{
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
+
 }
