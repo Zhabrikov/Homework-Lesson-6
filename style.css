@@ -465,10 +465,6 @@ header .btn a:hover{
 	background-size: cover;
 }
 
-/* .container7 .grid_news .item{
-	position: relative;
-} */
-
 .container7 .grid_news .item img{
 	max-width: 100%;	
 	margin-top: -40px;
@@ -529,6 +525,28 @@ header .btn a:hover{
 	font-weight: 300;
 	font-size: 30px;
 	color: #ffffff;
+	margin-top: 21vh;
+	line-height: 40px;
+}
+
+.container7 .grid_news .item1 .desc{
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 11px;
+	color: #cccccc;
+	margin-top: 3vh;
+   
+}
+
+.container7 .grid_news .item1 .desc span{
+	color: #b28c27;
+}
+
+.container7 .grid_news .item1 .item1_content{
+	width: 70%;
+	margin: auto;
+	text-align: center;
 }
 
 
