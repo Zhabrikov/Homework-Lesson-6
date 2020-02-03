@@ -480,8 +480,9 @@ header .btn a:hover{
 }
 
 .container7 .btn{
-	text-align: center;
+	width: 100%;
 }
+
 
 .container7 .btn a{
 	display: inline-block;
@@ -622,22 +623,44 @@ header .btn a:hover{
 @media (max-width: 1200px){
 	.container8 .description3 span, .container8 .description5 span{	
 		font-size: 20px;
+		top: 0;
 	}
 
 	.container8 .description2 svg, .container8 .description4 svg{
 		margin-left: 20px;
-		margin-bottom: 100px;
+		margin-bottom: 130px;
+	}
+
+	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
+		margin-bottom: 170px;
+	}
+
+	.container8 .description5 p:nth-child(2) {
+	    margin-bottom: 35px;
 	}
 }
 
 @media (max-width: 992px){
 	.container8 .description2 svg, .container8 .description4 svg{
 		margin-left: 5px;
-		margin-bottom: 108px;
+		margin-bottom: 150px;
 	}
+
 	.container8 .description3 p, .container8 .description5 p{
 		font-size: 12px;
 		margin-bottom: 40px;
+	}
+
+	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
+		margin-bottom: 195px;
+	}
+
+	.container8 .description5 p:nth-child(2) {
+	    margin-bottom: 20px;
+	}
+
+	.container8 .description5 p:nth-child(4) {
+	    margin-bottom: 75px;
 	}
 }
 
@@ -647,13 +670,55 @@ header .btn a:hover{
 	}
 
 	.container8 .description2 svg, .container8 .description4 svg{
-		margin-left: 0px;
-		margin-bottom: 95px;
+		/* margin-left: 0px; */
+		margin-bottom: 125px;
+	}
+	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
+		margin-bottom: 175px;
+	}
+
+	.container8 .description5 p:nth-child(2) {
+		margin-bottom: 15px;
+	}
+
+	.container8 .description5 p:nth-child(4) {
+		margin-bottom: 85px;
 	}
 }
 
 @media (max-width: 576px){
-	.container8 .description2 svg, .container8 .description4 svg{
+	.container8 .description2 svg{
 		margin-bottom: 60px;
+		margin-left: 8px;
+	}
+	.container8 .description3 p, .container8 .description5 p {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg {
+		margin-bottom: 90px;
+	}
+
+	.container8 .description5 p:nth-child(4) {
+		margin-bottom: 25px;
+	}
+
+	.container8 .description1{
+		/* left: 5%; */
+	}
+}
+
+@media (max-width: 320px){
+	.container8 .description2 svg, .container8 .description4 svg{
+		margin-bottom: 90px;
+		margin-left: 8px;
+	}
+	.container8 .description2 div:nth-child(2) svg{
+		margin-bottom: 108px;
+	}
+
+	.container8 .description4 svg {
+		margin-bottom: 82px;
 	}
 }
