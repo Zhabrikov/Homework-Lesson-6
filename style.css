@@ -549,6 +549,59 @@ header .btn a:hover{
 	text-align: center;
 }
 
+.container8{
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+.container8 h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 30px;
+	color: #000000;
+}
+
+.container8 .txt{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 16px;
+	color: #000000;
+	line-height: 24px;
+	margin-top: 13px;
+}
+
+.container8 .spans{
+	font-weight: 500;
+}
+
+.container8 .description2 svg, .container8 .description4 svg{
+	font-size: 39px;
+	color: #cca438;
+	margin-left: 30px;
+	margin-bottom: 130px;
+}
+
+.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
+	margin-bottom: 145px;
+}
+
+.container8 .description3 span, .container8 .description5 span{
+	position: relative;
+	top: -10px;
+	font-family: 'Ubuntu', sans-serif; 
+	font-size: 22px;
+	color: #000000;
+}
+
+.container8 .description3 p, .container8 .description5 p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 13px;
+	margin-bottom: 60px;
+	color: #000000;
+}
 
 
 
@@ -564,4 +617,43 @@ header .btn a:hover{
 		justify-content: space-around;
 	}
 
+}
+
+@media (max-width: 1200px){
+	.container8 .description3 span, .container8 .description5 span{	
+		font-size: 20px;
+	}
+
+	.container8 .description2 svg, .container8 .description4 svg{
+		margin-left: 20px;
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 992px){
+	.container8 .description2 svg, .container8 .description4 svg{
+		margin-left: 5px;
+		margin-bottom: 108px;
+	}
+	.container8 .description3 p, .container8 .description5 p{
+		font-size: 12px;
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 768px){
+	.container8 .description1{
+		margin-bottom: 30px;
+	}
+
+	.container8 .description2 svg, .container8 .description4 svg{
+		margin-left: 0px;
+		margin-bottom: 95px;
+	}
+}
+
+@media (max-width: 576px){
+	.container8 .description2 svg, .container8 .description4 svg{
+		margin-bottom: 60px;
+	}
 }
