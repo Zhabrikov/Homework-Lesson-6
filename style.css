@@ -343,8 +343,7 @@ header .btn a:hover{
 
 .container6{
 	background-image: url('./img/background_container6.png');
-	height: 1091px;
-	max-height: 1100px;	
+	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -604,6 +603,47 @@ header .btn a:hover{
 	color: #000000;
 }
 
+.container9{
+	background-image: url('./img/background_container6.png');
+	height: 100vh;
+	max-width: 100%;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.container9 .container9_header{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 48px;
+	color: #ffffff;
+	margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.container9 .description span{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+	font-size: 80px;
+	color: #c89d28;
+}
+
+.container9 .description p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 8vh;
+    margin-bottom: 12vh;
+}
+
+.container9 .container9_footer{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 24px;
+	color: #999999;
+}
+
 
 
 
@@ -661,6 +701,10 @@ header .btn a:hover{
 
 	.container8 .description5 p:nth-child(4) {
 	    margin-bottom: 75px;
+	}
+
+	.container9 .description span{
+		font-size: 40px;
 	}
 }
 
