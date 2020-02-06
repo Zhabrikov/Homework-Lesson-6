@@ -343,7 +343,6 @@ header .btn a:hover{
 
 .container6{
 	background-image: url('./img/background_container6.png');
-	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;	
@@ -354,13 +353,14 @@ header .btn a:hover{
 	font-weight: 300;
 	font-size: 48px;
 	color: #ffffff;
-	padding-top: 230px;
+	padding-top: 24vh;
 	margin-bottom: 125px;
 }
 
 .container6 .cards{
 	display: flex; 
 	justify-content: center;
+	padding-bottom: 28vh;
 }
 
 .container6 .cards .item{
@@ -383,6 +383,7 @@ header .btn a:hover{
 
 .container6 .cards .item .price sup{
 	font-size: 35px;
+	top: -1em;
 }
 
 .container6 .cards .item span{
@@ -392,8 +393,6 @@ header .btn a:hover{
 	color: #ffffff;
 	margin-bottom: 40px;
 }
-
-
 
 .container6 .cards .item p{
 	font-family: 'Ubuntu', sans-serif;
@@ -633,7 +632,6 @@ header .btn a:hover{
 
 .container9{
 	background-image: url('./img/background_container6.png');
-	/* height: 100vh; */
 	max-width: 100%;	
 	background-repeat: no-repeat;
 	background-size: cover;
