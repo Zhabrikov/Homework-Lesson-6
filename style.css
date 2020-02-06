@@ -547,6 +547,9 @@ header .btn a:hover{
 	text-align: center;
 }
 
+
+
+
 .container8{
 	margin-top: 200px;
 	margin-bottom: 200px;
@@ -588,6 +591,7 @@ header .btn a:hover{
 	font-weight: 300; 
 	font-size: 30px;
 	color: #000000;
+	margin-bottom: 10px;
 }
 
 .container8 .grid_elem p{
@@ -596,9 +600,10 @@ header .btn a:hover{
 	font-size: 16px;
 	color: #000000;
 	margin-top: 13px;
+	line-height: 24px;
 }
 
-.container8 .grid_elem .grid_description p span{
+.container8 .grid_elem span{
 	font-weight: 500; 
 }
 
@@ -665,6 +670,7 @@ header .btn a:hover{
 	font-weight: 300; 
 	font-size: 24px;
 	color: #999999;
+	padding-bottom: 33vh;
 }
 
 
@@ -692,8 +698,7 @@ header .btn a:hover{
 	
 }
 
-@media (max-width: 992px){
-	
+@media (max-width: 992px){	
 
 	.container9 .description span{
 		font-size: 60px;
@@ -710,8 +715,21 @@ header .btn a:hover{
 
 }
 
-@media (max-width: 768px){
-	
+@media (max-width: 768px){	
+
+	.container8 {
+		margin-top: 60px;
+		margin-bottom: 50px;
+	}
+
+	.container9 .container9_header {
+		margin-top: 10vh;
+		margin-bottom: 6vh;
+	}
+
+	.container9 .container9_footer {
+		padding-bottom: 10vh;
+	}
 
 	.container9 .description span {
 		font-size: 70px;
@@ -719,8 +737,7 @@ header .btn a:hover{
 
 }
 
-@media (max-width: 576px){
-	
+@media (max-width: 576px){	
 	
 	.container9 .container9_header h2{
 		font-size: 90px;
@@ -728,8 +745,7 @@ header .btn a:hover{
 	
 }
 
-@media (max-width: 320px){
-	
+@media (max-width: 320px){	
 
 	.container8 .description4 svg {
 		margin-bottom: 82px;
