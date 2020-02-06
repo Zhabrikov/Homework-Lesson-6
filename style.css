@@ -346,9 +346,7 @@ header .btn a:hover{
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
-	text-align: center;
-
-	
+	text-align: center;	
 }
 
 .container6 h2{
@@ -554,58 +552,83 @@ header .btn a:hover{
 	margin-bottom: 200px;
 }
 
-.container8 h3{
+.container8 .grid_elem{
+	margin-bottom: 20px;
+}
+
+.container8 .grid_elem_icon{
+	display: grid;
+	grid-template-columns: 50px auto;
+	grid-template-rows: auto auto;
+	margin-bottom: 20px;
+	grid-auto-columns: 20px;	
+}
+
+.container8 .grid_elem_icon .icon{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	text-align: right;
+	margin-top: 7px;
+}
+
+.container8 .grid_elem_icon .grid_header{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	margin-left: 20px;
+}
+
+.container8 .grid_elem_icon .grid_description{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	margin-left: 20px;
+}
+
+.container8 .grid_elem h3{
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300; 
 	font-size: 30px;
 	color: #000000;
 }
 
-.container8 .txt{
+.container8 .grid_elem p{
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300; 
 	font-size: 16px;
 	color: #000000;
-	line-height: 24px;
 	margin-top: 13px;
 }
 
-.container8 .spans{
-	font-weight: 500;
+.container8 .grid_elem .grid_description p span{
+	font-weight: 500; 
 }
 
-.container8 .description2 svg, .container8 .description4 svg{
+.container8 .grid_elem_icon .icon svg{
 	font-size: 39px;
-	color: #cca438;
-	margin-left: 30px;
-	margin-bottom: 130px;
+	color: #cca438;	
 }
 
-.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
-	margin-bottom: 145px;
-}
-
-.container8 .description3 span, .container8 .description5 span{
-	position: relative;
-	top: -10px;
-	font-family: 'Ubuntu', sans-serif; 
-	font-size: 22px;
-	color: #000000;
-}
-
-.container8 .description3 p, .container8 .description5 p{
+.container8 .grid_elem_icon .grid_header h3{
 	font-family: 'Ubuntu', sans-serif;
-	font-weight: 300; 
-	font-size: 14px;
+	font-weight: 300;
+	font-size: 22px;
 	line-height: 24px;
-	margin-top: 13px;
-	margin-bottom: 60px;
-	color: #000000;
+    color: #000000;
 }
+ .container8 .grid_elem_icon .grid_description p{
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+ }
+
+
+
+
 
 .container9{
 	background-image: url('./img/background_container6.png');
-	height: 100vh;
+	/* height: 100vh; */
 	max-width: 100%;	
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -648,6 +671,11 @@ header .btn a:hover{
 
 
 
+
+
+
+
+
 @media (max-width: 1300px){
 	.center{
 		width: 95%;
@@ -661,108 +689,50 @@ header .btn a:hover{
 }
 
 @media (max-width: 1200px){
-	.container8 .description3 span, .container8 .description5 span{	
-		font-size: 20px;
-		top: 0;
-	}
-
-	.container8 .description2 svg, .container8 .description4 svg{
-		margin-left: 20px;
-		margin-bottom: 130px;
-	}
-
-	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
-		margin-bottom: 170px;
-	}
-
-	.container8 .description5 p:nth-child(2) {
-	    margin-bottom: 35px;
-	}
+	
 }
 
 @media (max-width: 992px){
-	.container8 .description2 svg, .container8 .description4 svg{
-		margin-left: 5px;
-		margin-bottom: 150px;
-	}
-
-	.container8 .description3 p, .container8 .description5 p{
-		font-size: 12px;
-		margin-bottom: 40px;
-	}
-
-	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
-		margin-bottom: 195px;
-	}
-
-	.container8 .description5 p:nth-child(2) {
-	    margin-bottom: 20px;
-	}
-
-	.container8 .description5 p:nth-child(4) {
-	    margin-bottom: 75px;
-	}
+	
 
 	.container9 .description span{
-		font-size: 40px;
+		font-size: 60px;
 	}
+	.container9 .description p {
+		margin-top: 3vh;
+		margin-bottom: 8vh;
+	}
+
+	.container9 .container9_header {		
+		margin-top: 27vh;
+		margin-bottom: 6vh;
+	}
+
 }
 
 @media (max-width: 768px){
-	.container8 .description1{
-		margin-bottom: 30px;
+	
+
+	.container9 .description span {
+		font-size: 70px;
 	}
 
-	.container8 .description2 svg, .container8 .description4 svg{
-		/* margin-left: 0px; */
-		margin-bottom: 125px;
-	}
-	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg{
-		margin-bottom: 175px;
-	}
-
-	.container8 .description5 p:nth-child(2) {
-		margin-bottom: 15px;
-	}
-
-	.container8 .description5 p:nth-child(4) {
-		margin-bottom: 85px;
-	}
 }
 
 @media (max-width: 576px){
-	.container8 .description2 svg{
-		margin-bottom: 60px;
-		margin-left: 8px;
+	
+	
+	.container9 .container9_header h2{
+		font-size: 90px;
 	}
-	.container8 .description3 p, .container8 .description5 p {
-		font-size: 12px;
-		margin-bottom: 20px;
-	}
-
-	.container8 .description2 div:nth-child(2) svg, .container8 .description4 div:nth-child(2) svg {
-		margin-bottom: 90px;
-	}
-
-	.container8 .description5 p:nth-child(4) {
-		margin-bottom: 25px;
-	}
-
-	.container8 .description1{
-		/* left: 5%; */
-	}
+	
 }
 
 @media (max-width: 320px){
-	.container8 .description2 svg, .container8 .description4 svg{
-		margin-bottom: 90px;
-		margin-left: 8px;
-	}
-	.container8 .description2 div:nth-child(2) svg{
-		margin-bottom: 108px;
-	}
+	
 
 	.container8 .description4 svg {
 		margin-bottom: 82px;
 	}
+
 }
