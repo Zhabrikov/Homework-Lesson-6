@@ -201,6 +201,10 @@ header .btn a:hover{
 	position: relative;
 }
 
+.container3 .cards .img img{	
+	max-width: 100%;
+}
+
 .container3 .cards .img .black{
 	display: none;
 	opacity: 0.5;
@@ -341,6 +345,69 @@ header .btn a:hover{
 	background-color: #f8f8f8;	
 }
 
+.container5{
+	margin-top: 180px;
+	margin-bottom: 215px;
+}
+
+.container5 .left_content img{
+	max-width: 100%;
+}
+
+.container5 .right_content{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+}
+
+.container5 .right_content h3{
+	font-weight: 300;
+	font-size: 48px;
+	color: #000000;
+}
+
+
+
+.container5 .right_content svg{
+	font-size: 56px;
+	color: #c99f2c;
+}
+
+.container5 .right_content span{
+	font-weight: 400;
+	font-size: 22px;
+	color: #000000;
+}
+
+.container5 .right_content p{
+	font-size: 14px;
+	color: #4e4e4e;
+	margin-bottom: 4vh;
+}
+
+.container5 .right_content .txt_right{
+	font-size: 24px;
+	color: #333333;
+}
+
+.container5 .right_content a{
+	font-weight: 700;
+	font-size: 14px;
+	color: #4b4a4a;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 25px 90px;
+	background-color: #e5e1e1;
+	border-radius: 30px;
+}
+
+.container5 .row{
+	margin-left: -30px;
+}
+
+
+
+
+
 .container6{
 	background-image: url('./img/background_container6.png');
 	background-repeat: no-repeat;
@@ -360,7 +427,7 @@ header .btn a:hover{
 .container6 .cards{
 	display: flex; 
 	justify-content: center;
-	padding-bottom: 28vh;
+	padding-bottom: 30vh;
 }
 
 .container6 .cards .item{
@@ -643,7 +710,7 @@ header .btn a:hover{
 	font-weight: 300; 
 	font-size: 48px;
 	color: #ffffff;
-	margin-top: 20vh;
+	margin-top: 25vh;
     margin-bottom: 10vh;
 }
 
@@ -668,7 +735,7 @@ header .btn a:hover{
 	font-weight: 300; 
 	font-size: 24px;
 	color: #999999;
-	padding-bottom: 33vh;
+	padding-bottom: 30vh;
 }
 
 
@@ -731,6 +798,11 @@ header .btn a:hover{
 
 	.container9 .description span {
 		font-size: 70px;
+	}
+
+	.container5 .right_content{
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 
 }
