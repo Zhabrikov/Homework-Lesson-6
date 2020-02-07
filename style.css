@@ -95,21 +95,21 @@ header .logo, header .menu, header .btn{
 	display: inline-block;
 }
 
-header .menu{
-	margin-left: 62%;
+header .menu, header .btn{
+	margin-right: 3vw;
 	position: relative;
-	top: -20px;
+	top: -40px;
 }
 
-header .btn{
-	margin-left: 3%;
-	position: relative;
-	top: -20px;
-}
 
 header .btn a:hover{
 	color: #ffffff;
 	background-color: #8d7431;
+}
+
+header .top_header{
+	position: absolute;
+	right: 0;	
 }
 
 .container2{
@@ -628,9 +628,10 @@ header .btn a:hover{
 .container8 .grid_elem_icon{
 	display: grid;
 	grid-template-columns: 50px auto;
-	grid-template-rows: auto auto;
+	grid-template-rows: 50px auto;
 	margin-bottom: 20px;
-	grid-auto-columns: 20px;	
+	grid-auto-columns: 20px;
+	grid-row-gap: 10px;	
 }
 
 .container8 .grid_elem_icon .icon{
@@ -744,10 +745,35 @@ header .btn a:hover{
 
 
 
+@media (max-width: 1700px){
+	.container2 {
+		background-size: cover;
+	}
 
+	.container2 .main {		
+		display: block;		
+		top: 7vh;
+		left: 0;
+	}
+
+	.container2 h1 {
+	margin: 0 10px;
+	}
+
+	.container2 .main .btn {
+		margin-top: 35vh;
+	}
+
+	.container2 .main .btn a {
+		border: 2px solid #8d7431;
+	}
+
+
+}
 
 
 @media (max-width: 1300px){
+
 	.center{
 		width: 95%;
 	}
@@ -764,6 +790,42 @@ header .btn a:hover{
 }
 
 @media (max-width: 992px){	
+
+	.container2 .main .btn {
+		margin-top: 25vh;
+	}
+
+	header .top_header{
+		display: none;
+	}
+	.container4{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(5, 1fr);;
+	}
+
+	.container4 .item3{
+		grid-column: 1/3;
+    	grid-row: 2/3;
+	}
+
+	.container4 .item4{
+		grid-column: 1/2;
+    	grid-row: 3/4;
+	}
+
+	.container4 .item6{
+		grid-column: 2/3;
+    	grid-row: 3/5;
+	}
+
+	.container4 .item7{
+		grid-column: 1/3;
+    	grid-row: 5/6;
+	}
+
+	.container8 .grid_elem_icon{		
+		grid-row-gap: 25px;	
+	}
 
 	.container9 .description span{
 		font-size: 60px;
@@ -782,9 +844,67 @@ header .btn a:hover{
 
 @media (max-width: 768px){	
 
+	.container2 .main {		
+		top: 0vh;		
+	}
+
+	.container2 h1 {
+		font-size: 50px;
+	}
+
+	.container4{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(7, 1fr);;
+	}
+
+	.container4 .item2{
+		grid-column: 1/2;
+    	grid-row: 2/3;
+	}
+
+	.container4 .item3{
+		grid-column: 1/2;
+    	grid-row: 3/4;
+	}
+
+	.container4 .item4{
+		grid-column: 1/2;
+    	grid-row: 4/5;
+	}
+
+	.container4 .item6{
+		grid-column: 1/2;
+    	grid-row: 6/8;
+	}
+
+	.container4 .item7{
+		grid-column: 1/2;
+		grid-row: 8/9;
+		background-image: none;
+		background-color: #f8f8f8;
+	}
+	.container4 .item7 span, .container4 .item7 p {
+		width: 60%;
+	}
+
+	.container4 .item7 span, .container4 .item7 p, .container4 .item7 i {
+		margin-left: 20%;
+	}
+
+	.container4 .item7 span {
+		margin-top: 16%;
+	}
+
+	.container4 .item7 p {
+		margin-bottom: 16%;
+	}
+
 	.container8 {
 		margin-top: 60px;
 		margin-bottom: 50px;
+	}
+	.container8 .grid_elem_icon{		
+		grid-row-gap: 20px;	
 	}
 
 	.container9 .container9_header {
@@ -808,6 +928,14 @@ header .btn a:hover{
 }
 
 @media (max-width: 576px){	
+
+	.container2 h1 {
+		font-size: 40px;
+	}
+
+	.container8 .grid_elem_icon{		
+		grid-row-gap: 5px;	
+	}
 	
 	.container9 .container9_header h2{
 		font-size: 90px;
@@ -816,6 +944,10 @@ header .btn a:hover{
 }
 
 @media (max-width: 320px){	
+
+	.container2 h1{
+		font-size: 31px;
+	}
 
 	.container8 .description4 svg {
 		margin-bottom: 82px;
