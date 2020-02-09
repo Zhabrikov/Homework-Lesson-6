@@ -15,6 +15,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./fontawesome/all.css">
     <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -31,19 +33,25 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="logo">
             </div>
-            <div class="top_header">
-                <div class="menu">
+            <div class="top_header" id="top_header">
+                <div class="menu" id="menu">
                     <ul>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="#projects">Services</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="btn">
+                <div class="btn" id="btn">
                     <a href="#">Buy now</a>
                 </div>
             </div>
+
+            <span class="burger" id="burger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </header>
 
 
@@ -61,10 +69,6 @@
             </div>
 
         </section>
-
-
-
-
 
 
 
@@ -174,14 +178,14 @@
 
 
 
-        <section class="container5">
+        <section class="container5" id="projects">
             <div class="container-fluid">
                 <div class="row">
                     <div class="left_content col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
                         <!--  wow fadeInLeftBig data-wow-duration="1.5s"-->
                         <img src="./img/image13.png" alt="image13">
                     </div>
-                    <div class="right_content col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="right_content col-xl-3 col-lg-4 col-md-4 col-sm-9 col-11">
                         <!-- wow fadeInRightBig data-wow-duration="1.5s"-->
 
 
@@ -203,7 +207,6 @@
                                 </p>
                             </div>
                         </div>
-
                         <div class="grid_elem_icon">
                             <div class="icon">
                                 <i class="fas fa-headphones-alt"></i>
@@ -229,8 +232,10 @@
                             </div>
                         </div>
 
-
-                        <a href="#">View more</a>
+                        <div class="btn">
+                            <a href="#">View more</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -489,6 +494,18 @@
         </section>
 
 
+        <section class="container15">
+            <div class="owl-carousel owl-theme">
+                <div> Your Content 1</div>
+                <div> Your Content 2</div>
+                <div> Your Content 3</div>
+                <div> Your Content 4</div>
+                <div> Your Content 5</div>
+                <div> Your Content 6</div>
+                <div> Your Content 7</div>
+            </div>
+        </section>
+
 
 
         <section class="container11">
@@ -524,6 +541,17 @@
     <script src="./js/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script src="./js/script.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            items: 1
+        })
     </script>
 </body>
 
