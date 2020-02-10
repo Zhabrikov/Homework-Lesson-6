@@ -9,5 +9,5 @@ document.getElementById("burger").onclick = function(){
 }
 
 function addMenu(){
-    document.getElementById("top_header").classList.toggle("show");
+    document.getElementById("top_header").classList.toggle("show");    
 }
