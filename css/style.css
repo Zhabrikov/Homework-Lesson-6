@@ -896,8 +896,73 @@ header .top_header{
 	border-radius: 35px;
 	margin-bottom: 10vh;
     margin-top: 4vh;
-
 }
+
+
+
+
+.container12{
+	background-color: #0d0d0d;
+	padding-bottom: 11vh;
+    padding-top: 15vh;
+}
+
+.container12 h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 3vh;
+}
+
+.container12 .descr p, .container12 a, .container12 .icons svg{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 14px;
+	color: #666666;
+	line-height: 23px;
+}
+
+.container12 .icons{
+	margin-bottom: 6vh;
+}
+
+.container12 .icons svg{
+	margin-top: 3vh;
+	margin-right: 40px;
+}
+
+.container12 a{
+	display: block;
+	text-decoration: none;
+	line-height: 36px;	
+}
+
+.container12 .sevices, .container12 .company, .container12 .links{
+	display: flex;
+	flex-direction: column;
+}
+
+.container12 i{
+	display: block;
+	height: 1px;
+	background-color: #1d1d1d;
+	margin-top: 6vh;
+	margin-bottom: 4vh;
+}
+
+.container12 .txt_bottom{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300; 
+	font-size: 11px;
+	color: #999999;
+	text-transform: uppercase;
+}
+
+.container12 .txt_bottom span{
+	color: #8d7431;
+}
+
 
 
 
@@ -1203,6 +1268,22 @@ header .top_header{
 
 	.container9 .description span {
 		font-size: 70px;
+	}
+
+	.container12 .descr, .container12 .services, .container12 .company, .container12 .links{
+		text-align: center;
+	}
+
+	.container12 .icons{
+		display: flex;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: space-around;
+	}
+
+	.container12 .icons svg{
+		margin-right: 0;
 	}
 
 }
