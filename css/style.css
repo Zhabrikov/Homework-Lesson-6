@@ -79,6 +79,10 @@ header .menu ul li a{
 	color: #333333;
 }
 
+header .menu ul li a:hover{
+	color: #8d7431;
+}
+
 header .btn a{
 	text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
@@ -87,7 +91,8 @@ header .btn a{
     color: #333333;
     padding: 25px 50px;
     background-color: #fff;
-    border-radius: 35px;
+	border-radius: 35px;
+	transition-duration: .4s;
 }
 
 header .logo, header .menu, header .btn{
@@ -104,6 +109,7 @@ header .menu, header .btn{
 header .btn a:hover{
 	color: #ffffff;
 	background-color: #8d7431;
+	transition-duration: .5s;
 }
 
 header .top_header{
@@ -151,6 +157,7 @@ header .top_header{
 	background-color: #fff;
 	border-radius: 35px;
 	text-transform: uppercase;
+	transition-duration: .4s;
 }
 
 .container2 .main .btn a:hover{
@@ -347,11 +354,9 @@ header .top_header{
 
 
 
-
-
 .container5{
-	margin-top: 15vh;
-	margin-bottom: 17vh;
+	margin-top: 150px;
+	margin-bottom: 165px;
 }
 
 .container5 .left_content{
@@ -437,7 +442,21 @@ header .top_header{
 	border-radius: 30px;
 	display: inline-block;
 	margin-top: 2vh;
+	transition-duration: .4s;
 }
+
+.container5 .right_content a:hover{
+	background-color: #8d7431;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
 
 .container5 .row{
 	margin-left: -30px;
@@ -459,21 +478,21 @@ header .top_header{
 	font-weight: 300;
 	font-size: 48px;
 	color: #ffffff;
-	padding-top: 24vh;
+	padding-top: 140px;
 	margin-bottom: 125px;
 }
 
 .container6 .cards{
 	display: flex; 
 	justify-content: center;
-	padding-bottom: 15vh;
+	padding-bottom: 110px;
 	flex-wrap: wrap;
 }
 
 .container6 .cards .item{
 	width: 395px;
 	height: 395px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .container6 .cards .item:nth-child(2){
@@ -526,7 +545,8 @@ header .top_header{
     color: #333333;
     padding: 25px 50px;
     background-color: #ffffff;
-    border-radius: 35px;
+	border-radius: 35px;
+	transition-duration: .4s;
 }
 
 .container6 .cards .item:first-child a{
@@ -602,7 +622,8 @@ header .top_header{
 	color: #333333;
 	padding: 25px 50px;
     background-color: #ffffff;
-    border-radius: 35px;
+	border-radius: 35px;
+	transition-duration: .4s;
 }
 
 .container7 .btn a:hover{
@@ -661,8 +682,8 @@ header .top_header{
 
 
 .container8{
-	margin-top: 200px;
-	margin-bottom: 200px;
+	margin-top: 150px;
+	margin-bottom: 130px;
 }
 
 .container8 .grid_elem{
@@ -895,7 +916,13 @@ header .top_header{
     background-color: #ffffff;
 	border-radius: 35px;
 	margin-bottom: 10vh;
-    margin-top: 4vh;
+	margin-top: 4vh;
+	transition-duration: .4s;
+}
+
+.container11 a:hover{
+	color: #ffffff;
+	background-color: #8d7431;
 }
 
 
@@ -963,6 +990,53 @@ header .top_header{
 	color: #8d7431;
 }
 
+.facebook, .twitter, .basketball, .linkedin{
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.container12 .descr .icons .facebook:hover{
+	color: #3b5998;
+	transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.container12 .descr .icons .twitter:hover{
+	color: #3fa6db;
+	transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.container12 .descr .icons .basketball:hover{
+	color: #f85714;
+	transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.container12 .descr .icons .linkedin:hover{
+	color: #233d75;
+	transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.container12 .services a:hover, .container12 .company a:hover, .container12 .links a:hover{
+	color: #8d7431;
+	
+	transition-duration: .4s;
+}
+
+
+.container12 .txt_bottom span{
+	cursor: pointer;
+}
 
 
 
@@ -1265,8 +1339,8 @@ header .top_header{
 	}
 
 	.container5 .right_content {
-		margin: 3vh auto 0 auto;
-		margin-left: 6%;
+		margin: 3vh 0 0 auto;
+		/* margin-left: 6%; */
 	}
 
 
